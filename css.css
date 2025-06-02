@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  color: black;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: #e6f0ff;
+  border-radius: 5px;
+}
+
+.nav a:hover {
+  background-color: #cce0ff;
+}
+
+.section {
+  display: none;
+  margin-top: 20px;
+}
+
+.section.active {
+  display: block;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px; /* giảm khoảng cách giữa các item */
+}
+
+.info-item {
+  background-color: #e6f0ff;
+  max-width: 350px;
+  min-height: 60px;
+  padding: 6px; /* giảm padding bên trong */
+  border-radius: 5px;
+}
+
+
+.info-label {
+  font-weight: bold;
+}
+
+img.avatar {
+  float: right;
+  width: 300px;
+  aspect-ratio: 5/ 4;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
